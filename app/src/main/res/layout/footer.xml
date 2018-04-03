@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#24eab0"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#202125"
+        android:padding="8dp">
+
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/sms_icon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Messages"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/white_call_icon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call Logs"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/contact_icon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contacts"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/chat_icon"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chats"
+                android:textColor="#fff"
+                android:textSize="12dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
